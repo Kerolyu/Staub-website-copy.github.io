@@ -206,7 +206,7 @@ h1 {
   margin-top: 4rem;
   margin-bottom: 4rem;
   text-align: center;
-  @media (min-width: 1024px) {
+  @media (min-width: 640px) {
     flex-direction: row;
   }
 }
