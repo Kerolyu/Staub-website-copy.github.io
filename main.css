@@ -478,8 +478,12 @@ input:focus {
 }
 .play-button__outer-wrapper {
   position: absolute;
-  top: 50%;
-  right: 50%;
+  top: 30%;
+  right: 40%;
+  @media (min-width: 1024px) {
+    top: 50%;
+    right: 50%;
+  }
 }
 .video-thumbnail {
   position: relative;
@@ -500,11 +504,17 @@ input:focus {
   display: block;
 }
 .video-container {
-  max-height: 800px;
-  height: 90%;
   position: fixed;
-  margin: 5rem 4rem;
-  width: 90vw;
+  height: 30%;
+  width: 100%;
+  margin: 10rem 0;
+  @media (min-width: 1024px) {
+    max-height: 800px;
+    height: 90%;
+    position: fixed;
+    margin: 5rem 4rem;
+    width: 90vw;
+  }
 }
 .video-container iframe {
   width: 100%;
